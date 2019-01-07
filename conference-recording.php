@@ -13,9 +13,9 @@ echo '<Response>Hello</Response>'; // Place the desired response (if any) here.
 */
 
 /* Your email address. */
-$to = "davidkakon@gmail.com";
+$to = "david@nadavot.com";
 $subject = "Conference Call Archive";
 //$message = "You have received a message calling from {$_REQUEST['From']}";
 $message = "To listen to this message, please visit this URL: {$_REQUEST['RecordingUrl']}";
-//$headers = "From: davidkakon@gmail.com"; // Who should it come from?
+$headers = "From: davidkakon@gmail.com"; // Who should it come from?
 mail($to, $subject, $message, $message1, $headers);
