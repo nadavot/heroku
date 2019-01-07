@@ -6,7 +6,7 @@
 
 header('Content-type: text/xml');
 echo '<?xml version="1.0" encoding="UTF-8"?>'; 
-echo '<Response>hello</Response>'; // Place the desired response (if any) here.
+echo '<Response></Response>'; // Place the desired response (if any) here.
 
 /**
 * This section actually sends the email.
